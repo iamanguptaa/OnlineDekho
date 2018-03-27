@@ -1,0 +1,249 @@
+body{
+	margin: 0px;
+	padding:0px;
+	background-image: url("wall.jpg");
+	background-repeat: no-repeat; 
+	background-size: 1500px 1000px;
+	width: 100%;
+	overflow-x: hidden;
+
+}
+header{
+	margin-top: 70px;
+}
+
+h1{
+	text-align: left;
+	margin-left: 200px;
+	font-size: 50px;
+}
+#h_line{
+	width: 1200px;
+	color: black;
+	height: 1px;
+	border: none;
+	background-color: black;
+}
+h3{
+	text-align: center;
+	font-size: 30px;
+}
+.intro{
+	margin: 3px;
+	padding: 45px;
+	height: 300px;
+
+}
+.intro1{
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-align: left;
+}
+p#intro1::first-letter{
+	font-size: 50px;
+	color: grey;
+}
+#btn{
+	text-align: center;
+	color: white;
+}
+
+#rbtn{
+	background-color: transparent;
+	background-repeat: no-repeat;
+	outline: none;
+	cursor: pointer;
+	border: 2px solid #e7e7e7;
+	border-radius: 50px;
+	padding: 25px;
+	float: center;
+	color: white;
+	width:15%;
+	font-size: 17px;
+}
+#rbtn:hover{
+	background-color: #f44336;
+    color: white;
+    border-color:#f44336; 
+}
+#whysection{
+	background-color: white;
+	height: 600px;
+	margin-top: 50px;
+	padding: 10px;
+	
+}
+#yhead{
+	font-size: 60px;
+	margin: 0px;
+	position: relative;
+	top: 100px;
+	text-align: center;
+	font-weight: lighter;
+}
+#yhline{
+	width: 50px;
+	height: 5px;
+	background-color:#f44336;
+	border: none; 
+	top: 100px;
+	position: relative;
+}
+.c1{
+	width: 400px;
+	position: relative;
+	top: 200px;
+	left:20px;
+	padding: 2px;
+	margin: 2px;
+}
+.c2{
+	width: 400px;
+	position: relative;
+	left: 470px;	
+	padding: 2px;
+	margin: 2px;
+}
+.c3{
+	width: 400px;
+	top: -220px;
+	position: relative;
+	left: 930px;	
+	padding: 2px;
+	margin: 2px;
+}
+#prosection{
+	background-color: #ebedf4;
+	height: 900px;
+	margin-top: 100px;
+	padding: 10px;
+}
+h2{
+	text-align: center;
+	font-size: 50px;
+}
+#udline{
+	width: 50px;
+	height: 5px;
+	background-color:#f44336; 
+	border: none;
+}
+.pro{
+	height: 200px;
+	margin: 100px 70px 20px 80px;
+	padding: 5px;
+	width: 500px;
+	float: left;
+	z-index: 2;
+}
+h3{
+	color: white;
+	padding: 5px;	
+}
+.readmore{
+	background-color: transparent;
+	background-repeat: no-repeat;
+	outline: none;
+	cursor: pointer;
+	border: 2px solid #e7e7e7;
+	border-radius: 50px;
+	padding: 15px;
+	float: center;
+	color: white;
+}
+.readmore:hover{
+	background-color: #f44336;
+    color: white;
+    border-color:#f44336;	
+}
+#courses{
+	background-color: #1c1d1e;
+	height: 1100px;
+	padding: 10px;
+}
+h2#chead{
+	margin-top: 100px;
+	color: white;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+#cdtmain{
+	padding: 70px;
+}
+.cdt{
+	background-color: white;
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin:40px 20px 50px 50px;
+	padding: 5px;
+}
+h4{
+	letter-spacing: 2px;
+	margin-left: 15px;
+	font-size: 20px;
+	
+}
+h4:hover{
+	color:#ef675d;
+}
+.underline{
+	height: 5px;
+	background-color:#f44336;
+	border: none;
+	width: 30px;
+	float: left;
+	margin-left:  17px; 
+	margin-top: 0px;	
+}
+.coucont{
+	padding:3px;
+	margin-left: 13px;
+}
+#admission{
+	height: 700px;
+	background-color:#f44336; 
+	margin-top: -43px;
+}
+#adhead{
+	text-align: center;
+	color: white;
+	padding-top: 60px;
+}
+#adudline{
+	width: 50px;
+	height: 5px;
+	background-color:white; 
+	border: none;
+}
+#admdet{
+	margin: 10px;
+	padding: 40px;
+}
+.adm_con{
+	font-size: 20px;
+	color: #eaedf2;
+	letter-spacing: 3px;
+	text-align: center;
+	line-height: 150%;
+}
+#contactus{
+	height: 600px;
+}
+#cuhead{
+	text-align: center;
+	margin:0px;
+	padding-top: 100px;
+	font-size: 70px;
+	margin-bottom: 50px;
+}
+
+.cdetail{
+	float: left;
+	padding: 70px;
+}
+img{
+	padding: 50px;
+	margin-left: 80px;
+	margin-bottom: -20px;
+}

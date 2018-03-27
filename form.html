@@ -1,0 +1,138 @@
+<html>
+	<head>
+		<title>form-page</title>
+
+		<style type="text/css">
+			body{
+				background-image: url("images/silver.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			@font-face{
+				font-family:myfont ;
+				src: url("ADayInAutumn.TTF");
+			}
+			h1{
+				font-family: myfont;
+			}
+			#h2{
+				text-align: center;
+				border: 1px solid #ff6666;
+				background-color: #ff4d4d;
+				font-size: 20px;
+				height: 40px;
+				width: 180px;
+				margin-left: 330px;
+				margin-top: -20px;
+				padding-top: 13px;
+				border-radius: 5px;
+				box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+			}
+			form{
+				border:1px solid white;
+				margin:40px 200px 0px 200px;
+				padding: 40px;
+				background-color: white;
+				border-radius: 8px;
+				font-size: 20px;
+			}
+			input{
+				padding: 10px;
+				border: 1px solid white;
+				border-radius: 5px;
+				background-color: rgb(233, 226, 228);
+				margin-left: 100px;
+			}
+			input[type="date"]{
+					margin-left: 73px;
+			}
+			input[type="email"]{
+				margin-left: 129px;
+			}
+			input[type="number"]{
+				margin-left: 70px;
+			}
+
+			#find{
+				border: none;
+				background-color: #4CAF50;
+				text-align: center;
+				text-decoration: none;
+				cursor: pointer;
+				font-size: 26px;
+				color: white;
+				box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+				width: 70%;
+
+			}
+			p{
+				font-size: 20px;
+			}
+			h5{
+				text-align: right;
+				font-size: 20px;
+				margin-top: -45px;
+			}
+			</style>
+	</head>
+
+<body>
+		
+		<h1 style="text-align: center;letter-spacing: 3px;font-size: 60px;margin-top: 30px;">OnLineDekho</h1>
+		<hr style="width: 190px;margin-top: -30px;height: 2px;background-color: black;">
+		<br><br>
+			<h2 style="text-align: center;">What Describes You!</h2>
+			<hr style="margin-top: -10px;height: 1px;background-color: black;">
+			
+	<form id="details" name="myForm" method="get" onsubmit="return validateForm()">
+	
+					<h2 id="h2">WELCOME</h2>
+					<hr>
+		First name:	 	<input type="text" name="firstname" placeholder="firstname" autofocus><br><br>
+		Last name: 	 	<input type="text" name="lastname" placeholder="lastname" autofocus><br><br>
+		Date Of Birth:	<input type="date" name="DOB" placeholder="DOB" ><br><br>
+		E-mail:  	  	<input type="email" name="email-id" size="40" ><br><br>	
+		Phone-number: 	<input type="number" name="phone"  ><br><br>
+		Age:			<input type="number" name="age" style="margin-left: 153px;"><br><br><br>
+		Gender:			
+						<input type="radio" name="Gender" value="male">Male
+						<input type="radio" name="Gender" value="Female">Female<br><br>
+		<hr><br>
+
+		Education:		<br>
+						<input type="checkbox" name="Xth" value="tenth"> SSC<br>
+						<input type="checkbox" name="12th" value="twelth">HSC<br>
+						<input type="checkbox" name="graduation" value="grad">Graduation<br>
+						<input type="checkbox" name="Post-graduation" value="post">Post-graduation<br><br>
+		Who you are?	<br>
+						<input type="checkbox" name="student">Student<br>
+						<input type="checkbox" name="graduate">Graduate<br>
+						<input type="checkbox" name="employee">Employee<br>
+						<input type="checkbox" name="servivemen">Ex-servicemen<br><br><br>
+						<hr><br><br>
+		Areas of Interests<br>
+						<input type="radio" name="course" value="Engineering">Engineering<br>
+						<input type="radio" name="course" value="Medical">Medical<br>
+						<input type="radio" name="course" value="Designing">Designing<br>
+						<input type="radio" name="course" value="Law">Law<br>
+						<input type="radio" name="course" value="Business">Business<br>
+						<input type="radio" name="course" value="Defence">Defence<br>
+						<input type="radio" name="course" value="hotel management">Hotel management<br>
+						<input type="radio" name="course" value="Govt. Sector">Govt. Sector<br>
+						<input type="radio" name="course" value="other">Other<br><br>
+		What do you Want? <br>
+						<input type="radio" name="option" value="Courses">Courses<br>
+						<input type="radio" name="option" value="Entrance-Exams">Entrance-Exams<br>
+						<input type="radio" name="option" value="Placement-Exams">Placement-Exams<br><br><br> 
+					<hr><br>
+
+						<input id="find" type="submit" name="FIND" value="FIND">
+	</form>
+	<br><br>
+	<hr>
+	 <p> @ www.onlinedekho.com</p>
+	 <h5>Made by A-001</h5>
+	 
+	 <script src="f-js.js"></script>
+</body>
+</html>
